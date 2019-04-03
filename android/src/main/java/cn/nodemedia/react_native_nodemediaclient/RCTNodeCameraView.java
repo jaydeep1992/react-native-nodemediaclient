@@ -71,9 +71,9 @@ public class RCTNodeCameraView extends NodeCameraView implements LifecycleEventL
 
     public void setCamera(int cameraId, boolean cameraFrontMirror) {
         mNodePublisher.setCameraPreview(this, cameraId, cameraFrontMirror);
-        if(isAutoPreview) {
+        //if(isAutoPreview) {
             startPrev();
-        }
+        //}
     }
 
     public void setAudio(int audioBitrate, int audioProfile,int audioSamplerate) {
