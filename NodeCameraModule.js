@@ -97,7 +97,7 @@ NodeCameraView.propTypes = {
     preset: PropTypes.number,
     bitrate: PropTypes.number,
     profile: PropTypes.oneOf([0, 1, 2]),
-    fps: PropTypes.oneOf([15, 20, 24, 30]),
+    fps: PropTypes.oneOf([15, 20, 24, 30, 60]),
     videoFrontMirror: PropTypes.bool
   }),
   autopreview:PropTypes.bool,
